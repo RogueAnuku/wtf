@@ -1,0 +1,186 @@
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font-family and background color */
+body {
+  font-family: 'Mulish', sans-serif;
+  background-color: black;
+  color: white;
+  font-family: 'Mulish', sans-serif;
+  background-color: black;
+  color: white;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+/* Top bar styles */
+.top-bar {
+  background-color: black;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo .name {
+  font-weight: bold;
+}
+
+.navigation-links {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-links li {
+  margin-left: 20px;
+}
+
+.navigation-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Add your other CSS rules here */
+
+/* Example styles for the hero section */
+.hero {
+  background-image: url(https://i.imgur.com/doQ6p9R.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 588px;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%; 
+  box-shadow: 0px 8px 88px 4px rgba(0, 191, 240, 9.0);
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-heading {
+  color: #FFF;
+  font-family: 'Mulish', sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 10px; /* Add a small margin at the bottom of the heading */
+}
+
+#smallblue {
+  color: #00BFF0;
+}
+
+.content-container {
+  position: relative;
+  padding-top: 8%; /* Adjusted to center the image */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content-container img {
+  max-width: inherit;
+  margin-top: -14%;
+}
+
+
+.columns-container {
+  display: flex;
+  margin-top: 20px; /* Adjusted the margin */
+  margin-left: 10%;
+}
+
+.left-column {
+  flex: 1;
+  margin-inline-end: 10%;
+}
+
+.right-column {
+  flex: 1;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 29px;
+    margin-inline-end: 18%;
+}
+.right-column {
+  flex: initial;
+  justify-content: right;
+  width: 40%;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 20;
+}
+
+
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+}
+
+.footer p {color: rgba(0, 191, 240, 9.0);
+  margin-bottom: 0px;
+}
+
+.footer-links {
+  list-style: vertical;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Media query for responsiveness */
+@media screen and (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+}
